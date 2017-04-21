@@ -1,0 +1,105 @@
+section{
+    margin: auto;
+    width: 75%;
+    position: relative;
+    top: 10rem;
+    box-shadow: 5px 5px 10px #5C5C66;
+    background-color: white;
+}
+article{
+    max-width: 52%;
+    display: inline-flex;
+    background-color: #333340;
+    margin: 1rem;
+    position: relative;
+}
+
+.description{
+    position: relative;
+    max-width: 50%;
+    margin: 0.9rem 0 0.9rem 2rem;
+}
+
+h2{
+    color: white;
+}
+
+.icon-social{
+    position: absolute;
+    bottom: 0;
+}
+
+.icon-social a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    background-color: #B3B3B3;
+    border-radius: 50%;
+}
+
+#image-odeb, #image-congre, #image-senora, #image-alcalde, #image-corea{
+    background: url(../image/sprite-image.png) no-repeat;
+}
+
+#image-odeb{
+    width: 93rem;
+    height: 14.5rem;
+    background-position: 0 -50rem;
+}
+
+.senora{
+    position: relative;
+}
+.senora h2{
+    color: red;
+    background-color: white;
+    text-transform: uppercase;
+}
+
+.senora p{
+    color: white;
+    background-color: red;
+    padding: 1.5rem;
+    width: 25rem;
+}
+
+#image-senora{
+    width: 3.5rem;
+    height: 5.5rem;
+    background-position: 0 -65rem;
+    position: absolute;
+    top: 0.4rem;
+    right: -0.5rem;
+}
+.alcalde{
+  display: inline-flex;
+  position: absolute;
+  top: 7rem;
+  background-color: #1363A9;
+}
+
+#image-alcalde{
+  width: 16rem;
+  height: 16.5rem;
+  background-position: 0 0;
+}
+
+#image-congre{
+    width: 100%;
+    height: 9.5rem;
+    background-position: 0 -18rem;
+}
+
+.congresista, .corea{
+  margin-left: 1rem;
+}
+
+#image-corea{
+  width: 19rem;
+  height: 9.5rem;
+  background-position: 0 -35rem;
+}
+
+.corea .description, .congresista .description{
+  max-width: 100%;
+}
